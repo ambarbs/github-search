@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
   background: rgb(2, 0, 36);
@@ -29,15 +29,4 @@ export const SearchBox = styled.input`
   margin-bottom: 2rem;
   margin-top: 2rem;
   box-shadow: 0 4px 12px rgba(77, 128, 114, 0.3);
-`;
-
-export const SearchWrapper = styled.div`
-  height: 70px;
-  padding: 0 25px;
-  font-family: inherit;
-  font-size: 1em;
-  font-weight: 300;
-  color: inherit;
-  border: none;
-  background: transparent;
 `;
