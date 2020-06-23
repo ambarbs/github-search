@@ -23,7 +23,7 @@ const App = () => {
     if (searchTerm) {
       debounceLoadData(url);
     }
-  }, [url]);
+  }, [url, searchTerm, debounceLoadData]);
 
   const { items = [] } = data;
   const renderedContent = error ? (
