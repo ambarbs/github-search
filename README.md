@@ -1,3 +1,32 @@
+## Developer Notes
+
+### Approach
+
+1. Used React initialised with _create-react-app_
+
+2. Fetch and store search result on hitting github search endpoint:
+    https://developer.github.com/v3/search/#search-repositories
+
+3. Used _styled-components_ to design the css as it gives a more dynamic approach in handling css
+
+4. Displayed the search results in a grid view with responsiveness:
+
+   i. Screen with minimum width 1200px will show 3 x n grid
+   
+   ii. Screen with minimum width  768px will show 2 x n grid
+   
+   iii. Screen with minimum with 400px will show 1 x n grid
+  
+    
+### Improvements
+
+1. Pagination or Lazy Loading could implemented to show more items in an organized manner
+
+2. Clicking on each can be expanded to show more details or taken to the github repo itself
+
+3. Filters and search components can be developed in order to drill down to particular items from the search result
+    
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
