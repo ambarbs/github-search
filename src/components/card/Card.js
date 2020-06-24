@@ -4,18 +4,18 @@ import { CardWrapper } from './Card.styles';
 import { Flex, Label } from '../common/Common.styles';
 
 const Card = ({ id, name, watchersCount }) => (
-  <CardWrapper>
+  <CardWrapper data-testid="card">
     <Flex>
       <Label fontWeight="bold">ID:</Label>
-      <Label>{id}</Label>
+      <Label data-testid="item-id">{id}</Label>
     </Flex>
     <Flex>
       <Label fontWeight="bold">Name</Label>
-      <Label>{name}</Label>
+      <Label data-testid="item-name">{name}</Label>
     </Flex>
     <Flex>
       <Label fontWeight="bold">Watchers Count:</Label>
-      <Label>{watchersCount}</Label>
+      <Label data-testid="item-count">{watchersCount}</Label>
     </Flex>
   </CardWrapper>
 );

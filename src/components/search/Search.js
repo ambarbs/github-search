@@ -29,7 +29,7 @@ const Search = () => {
   const renderedContent = error ? (
     <>Error</>
   ) : (
-    <GridView>
+    <GridView data-testid="search">
       {items.map((item) => {
         const { id, name, watchers_count: watchersCount } = item;
         return <Card id={id} name={name} watchersCount={watchersCount} />;
