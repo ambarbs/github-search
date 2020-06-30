@@ -10,4 +10,5 @@ export const SearchBox = styled.input`
   margin-bottom: 2rem;
   margin-top: 2rem;
   box-shadow: 0 4px 12px rgba(77, 128, 114, 0.3);
+  text-align: center;
 `;
